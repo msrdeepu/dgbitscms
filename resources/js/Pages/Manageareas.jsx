@@ -2,7 +2,7 @@ import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
 import { Head } from "@inertiajs/inertia-react";
 import { Card, Input } from "antd";
 import { Select, Space, Button } from "antd";
-import Districtstable from "./Tablepages/Districtstable";
+import Areatable from "./Tablepages/Areatable";
 
 const handleChange = (value) => {
     console.log(`selected ${value}`);
@@ -42,12 +42,12 @@ function selectItem() {
     );
 }
 
-function selectDistrict() {
+function selectArea() {
     return (
         <>
             <Space wrap>
                 <Select
-                    defaultValue="--SELECT STATE--"
+                    defaultValue="--SELECT DISTRICT--"
                     style={{
                         width: "200px",
                     }}
@@ -204,12 +204,12 @@ function selectDistrict() {
     );
 }
 
-function Managedistricts(props) {
+function Manageareas(props) {
     return (
         <>
             <Head title="admin-countries" />
 
-            <Card title={`Manage Districts`}>
+            <Card title={`Manage Areas`}>
                 <div
                     style={{
                         display: "flex",
@@ -225,19 +225,19 @@ function Managedistricts(props) {
                             padding: "25px",
                         }}
                     >
-                        <div style={{ margin: "10px" }}>{selectDistrict()}</div>
+                        <div style={{ margin: "10px" }}>{selectArea()}</div>
                         <Input style={{ margin: "10px" }} placeholder="Name" />
                         <Input style={{ margin: "10px" }} placeholder="Order" />
                         <div style={{ margin: "10px" }}>{selectItem()}</div>
                         <div style={{ margin: "10px" }}>{stateAddButton()}</div>
                     </form>
                 </div>
-                <Districtstable />
+                <Areatable />
             </Card>
         </>
     );
 }
 
-Managedistricts.layout = (page) => <AuthenticatedLayout children={page} />;
+Manageareas.layout = (page) => <AuthenticatedLayout children={page} />;
 
-export default Managedistricts;
+export default Manageareas;

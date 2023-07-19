@@ -3,9 +3,9 @@ import { Head } from "@inertiajs/inertia-react";
 import { Card, Typography, Button } from "antd";
 import { PlusCircleOutlined } from "@ant-design/icons";
 
-import Widgettable from "./Tablepages/Widgettable";
+import Tablepages from "./Tablepages/Tablepages";
 
-function Managewidgets(props) {
+function Managepages(props) {
     return (
         <>
             <Head title="admin-pages" />
@@ -14,20 +14,20 @@ function Managewidgets(props) {
                 <div
                     style={{ display: "flex", justifyContent: "space-between" }}
                 >
-                    <h3>Widgets Page</h3>
+                    <h3>Pages</h3>
 
                     <Button danger icon={<PlusCircleOutlined />}>
-                        Create Widget
+                        Create Page
                     </Button>
                 </div>
                 <Typography.Text>
-                    <Widgettable />
+                    <Tablepages />
                 </Typography.Text>
             </Card>
         </>
     );
 }
 
-export default Managewidgets;
+export default Managepages;
 
-Managewidgets.layout = (page) => <AuthenticatedLayout children={page} />;
+Managepages.layout = (page) => <AuthenticatedLayout children={page} />;

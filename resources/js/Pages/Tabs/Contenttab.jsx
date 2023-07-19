@@ -12,10 +12,6 @@ const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
 };
 
-const firstLayoutReturn = () => {
-    return <h1>Hello</h1>;
-};
-
 const layoutType = (event) => {
     let value = event.target.value;
     if (value === "Select Page Type" || "Article") {
@@ -243,7 +239,6 @@ const Contenttab = () => {
                     <Savecancelbuttons />
                 </Form>
             </div>
-            <div style={{ textAlign: "center" }}> {layoutType} </div>
         </>
     );
 };

@@ -6,6 +6,9 @@ import { Card } from "antd";
 import Metadatatab from "./Tabs/Metadatatab";
 import Contenttab from "./Tabs/Contenttab";
 import Attachmentstab from "./Tabs/Attachmentstab";
+import Calltoaction from "./Tabs/Calltoaction";
+import Settings from "./Tabs/Settings";
+import Publishtab from "./Tabs/Publishtab";
 
 import { Tabs } from "antd";
 const onChange = (key) => {
@@ -31,17 +34,17 @@ const items = [
     {
         key: "4",
         label: `Call to Action`,
-        children: `Content of Tab Pane 4`,
+        children: <Calltoaction />,
     },
     {
         key: "5",
         label: `Settings`,
-        children: `Content of Tab Pane 5`,
+        children: <Settings />,
     },
     {
         key: "6",
         label: `Publish`,
-        children: `Content of Tab Pane 6`,
+        children: <Publishtab />,
     },
 ];
 

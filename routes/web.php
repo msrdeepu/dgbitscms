@@ -56,9 +56,23 @@ Route::get('/admin-districts', function () {
     return Inertia ::render('Managedistricts');
 });
 
+Route::get('/admin-areas', function () {
+    return Inertia ::render('Manageareas');
+});
+
+Route::get('/admin-settings', function () {
+    return Inertia ::render('Manageadminsettings');
+});
+
+Route::get('/admin-members', function () {
+    return Inertia ::render('Managemembers');
+});
+
 Route::get('/admin-page-create', function () {
     return Inertia ::render('Createpage');
 });
+
+
 
 
 Route::middleware('auth')->group(function () {
