@@ -68,6 +68,15 @@ Route::get('/admin-members', function () {
     return Inertia ::render('Managemembers');
 });
 
+Route::get('/admin-roles', function () {
+    return Inertia ::render('Manageadminroles');
+});
+
+
+Route::get('/admin-permissions', function () {
+    return Inertia ::render('Manageadminpermissions');
+});
+
 Route::get('/admin-page-create', function () {
     return Inertia ::render('Createpage');
 });

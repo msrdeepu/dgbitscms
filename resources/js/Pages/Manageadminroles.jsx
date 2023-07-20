@@ -3,31 +3,31 @@ import { Head } from "@inertiajs/inertia-react";
 import { Card, Typography, Button } from "antd";
 import { PlusCircleOutlined } from "@ant-design/icons";
 
-import Adminmembers from "./Tablepages/Adminmembers";
+import Adminroles from "./Tablepages/Adminroles";
 
-function Managemembers(props) {
+function Manageadminroles(props) {
     return (
         <>
             <Head title="admin-pages" />
 
-            <Card title={`Manage admin Members`}>
+            <Card title={`Manage admin Roles`}>
                 <div
                     style={{ display: "flex", justifyContent: "space-between" }}
                 >
                     <h3>Admin Members</h3>
 
-                    <Button danger icon={<PlusCircleOutlined />}>
-                        Create Page
+                    <Button type="primary" icon={<PlusCircleOutlined />}>
+                        New Profile
                     </Button>
                 </div>
                 <Typography.Text>
-                    <Adminmembers />
+                    <Adminroles />
                 </Typography.Text>
             </Card>
         </>
     );
 }
 
-export default Managemembers;
+export default Manageadminroles;
 
-Managemembers.layout = (page) => <AuthenticatedLayout children={page} />;
+Manageadminroles.layout = (page) => <AuthenticatedLayout children={page} />;

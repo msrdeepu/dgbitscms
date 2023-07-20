@@ -22,14 +22,11 @@ const data = [
         name: "Administrator",
         role: "Admin",
         email: "admin@telugusena.com",
-        phone: "",
-        mobileno: "9989036524",
-        whatsappno: "no",
-        password: "password",
+        description: "Client",
         createdon: withSlashes,
     },
 ];
-const Adminmembers = () => {
+const Adminpermissions = () => {
     const [searchText, setSearchText] = useState("");
     const [searchedColumn, setSearchedColumn] = useState("");
     const searchInput = useRef(null);
@@ -155,58 +152,28 @@ const Adminmembers = () => {
     });
     const columns = [
         {
-            title: "Name",
-            dataIndex: "name",
-            key: "name",
-            ...getColumnSearchProps("name"),
-        },
-        {
             title: "Role",
             dataIndex: "role",
             key: "role",
-
             ...getColumnSearchProps("role"),
         },
         {
-            title: "Email",
-            dataIndex: "email",
-            key: "email",
-            ...getColumnSearchProps("email"),
-            sorter: (a, b) => a.address.length - b.address.length,
-            sortDirections: ["descend", "ascend"],
+            title: "Name",
+            dataIndex: "name",
+            key: "name",
+
+            ...getColumnSearchProps("name"),
         },
+
         {
-            title: "Phone",
-            dataIndex: "phone",
-            key: "phone",
-            ...getColumnSearchProps("phone"),
+            title: "Description",
+            dataIndex: "description",
+            key: "description",
+            ...getColumnSearchProps("description"),
             sorter: (a, b) => a.address.length - b.address.length,
             sortDirections: ["descend", "ascend"],
         },
-        {
-            title: "Mobile",
-            dataIndex: "mobileno",
-            key: "mobileno",
-            ...getColumnSearchProps("mobileno"),
-            sorter: (a, b) => a.address.length - b.address.length,
-            sortDirections: ["descend", "ascend"],
-        },
-        {
-            title: "Whatsapp N0:",
-            dataIndex: "whatsappno",
-            key: "whatsappno",
-            ...getColumnSearchProps("whatsappno"),
-            sorter: (a, b) => a.address.length - b.address.length,
-            sortDirections: ["descend", "ascend"],
-        },
-        {
-            title: "Password",
-            dataIndex: "password",
-            key: "password",
-            ...getColumnSearchProps("password"),
-            sorter: (a, b) => a.address.length - b.address.length,
-            sortDirections: ["descend", "ascend"],
-        },
+
         {
             title: "Created On",
             dataIndex: "createdon",
@@ -244,4 +211,4 @@ const Adminmembers = () => {
     ];
     return <Table columns={columns} dataSource={data} />;
 };
-export default Adminmembers;
+export default Adminpermissions;
