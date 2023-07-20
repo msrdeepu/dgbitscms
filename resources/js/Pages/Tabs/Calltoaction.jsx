@@ -96,7 +96,6 @@ const Calltoaction = () => {
                         </p>
                         <input
                             style={{
-                                padding: "5px",
                                 width: "100%",
                                 padding: "10px",
                                 borderColor: "lightgray",
