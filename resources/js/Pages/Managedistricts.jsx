@@ -54,148 +54,348 @@ function selectDistrict() {
                     onChange={handleChange}
                     options={[
                         {
-                            value: "INDIA",
-                            label: "INDIA",
+                            value: "AndhraPradesh",
+                            label: "AndhraPradesh",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Telangana",
+                            label: "Telangana",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Tamil Nadu",
+                            label: "Tamil Nadu",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Karnataka",
+                            label: "Karnataka",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Arunachal Pradesh",
+                            label: "Arunachal Pradesh",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Assam",
+                            label: "Assam",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Bihar",
+                            label: "Bihar",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Goa",
+                            label: "Goa",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Gujarat",
+                            label: "Gujarat",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Haryana",
+                            label: "Haryana",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Himachal Pradesh",
+                            label: "Himachal Pradesh",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Jharkhand",
+                            label: "Jharkhand",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Kerala",
+                            label: "Kerala",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Madhya Pradesh",
+                            label: "Madhya Pradesh",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Maharashtra",
+                            label: "Maharashtra",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Manipur",
+                            label: "Manipur",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Meghalaya",
+                            label: "Meghalaya",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Mizoram",
+                            label: "Mizoram",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Nagaland",
+                            label: "Nagaland",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Odisha",
+                            label: "Odisha",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Punjab",
+                            label: "Punjab",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Rajasthan",
+                            label: "Rajasthan",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Sikkim",
+                            label: "Sikkim",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Tripura",
+                            label: "Tripura",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Uttar Pradesh",
+                            label: "Uttar Pradesh",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Uttarakhand",
+                            label: "Uttarakhand",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "West Bengal",
+                            label: "West Bengal",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Chhattisgarh",
+                            label: "Chhattisgarh",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Chandigarh",
+                            label: "Chandigarh",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Dadra and Nagar Haveli and Daman and Diu",
+                            label: "Dadra and Nagar Haveli and Daman and Diu",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Delhi",
+                            label: "Delhi",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Jammu and Kashmir",
+                            label: "Jammu and Kashmir",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Ladakh",
+                            label: "Ladakh",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Lakshadweep",
+                            label: "Lakshadweep",
                         },
                         {
-                            value: "ACTIVE",
-                            label: "ACTIVE",
+                            value: "Puducherry",
+                            label: "Puducherry",
                         },
                         {
-                            value: "INACTIVE",
-                            label: "INACTIVE",
+                            value: "Andaman and Nicobar Islands",
+                            label: "Andaman and Nicobar Islands",
+                        },
+                        {
+                            value: "Alabama",
+                            label: "Alabama",
+                        },
+                        {
+                            value: "Alaska",
+                            label: "Alaska",
+                        },
+                        {
+                            value: "Arizona",
+                            label: "Arizona",
+                        },
+                        {
+                            value: "Arkansas",
+                            label: "Arkansas",
+                        },
+                        {
+                            value: "California",
+                            label: "California",
+                        },
+                        {
+                            value: "Colorado",
+                            label: "Colorado",
+                        },
+                        {
+                            value: "Connecticut",
+                            label: "Connecticut",
+                        },
+                        {
+                            value: "Delaware",
+                            label: "Delaware",
+                        },
+                        {
+                            value: "Florida",
+                            label: "Florida",
+                        },
+                        {
+                            value: "Georgia",
+                            label: "Georgia",
+                        },
+                        {
+                            value: "Hawaii",
+                            label: "Hawaii",
+                        },
+                        {
+                            value: "Idaho",
+                            label: "Idaho",
+                        },
+                        {
+                            value: "Illinois",
+                            label: "Illinois",
+                        },
+                        {
+                            value: "Indiana",
+                            label: "Indiana",
+                        },
+                        {
+                            value: "Iowa",
+                            label: "Iowa",
+                        },
+                        {
+                            value: "Kansas",
+                            label: "Kansas",
+                        },
+                        {
+                            value: "Kentucky",
+                            label: "Kentucky",
+                        },
+                        {
+                            value: "Louisiana",
+                            label: "Louisiana",
+                        },
+                        {
+                            value: "Maine",
+                            label: "Maine",
+                        },
+                        {
+                            value: "Maryland",
+                            label: "Maryland",
+                        },
+                        {
+                            value: "Massachusetts",
+                            label: "Massachusetts",
+                        },
+                        {
+                            value: "Michigan",
+                            label: "Michigan",
+                        },
+                        {
+                            value: "Minnesota",
+                            label: "Minnesota",
+                        },
+                        {
+                            value: "Mississippi",
+                            label: "Mississippi",
+                        },
+                        {
+                            value: "Missouri",
+                            label: "Missouri",
+                        },
+                        {
+                            value: "Montana",
+                            label: "Montana",
+                        },
+                        {
+                            value: "Nebraska",
+                            label: "Nebraska",
+                        },
+                        {
+                            value: "Nevada",
+                            label: "Nevada",
+                        },
+                        {
+                            value: "New Hampshire",
+                            label: "New Hampshire",
+                        },
+                        {
+                            value: "New Jersey",
+                            label: "New Jersey",
+                        },
+                        {
+                            value: "New Mexico",
+                            label: "New Mexico",
+                        },
+                        {
+                            value: "New York",
+                            label: "New York",
+                        },
+                        {
+                            value: "North Carolina",
+                            label: "North Carolina",
+                        },
+                        {
+                            value: "North Dakota",
+                            label: "North Dakota",
+                        },
+                        {
+                            value: "Ohio",
+                            label: "Ohio",
+                        },
+                        {
+                            value: "Oklahoma",
+                            label: "Oklahoma",
+                        },
+                        {
+                            value: "Oregon",
+                            label: "Oregon",
+                        },
+                        {
+                            value: "Pennsylvania",
+                            value: "Pennsylvania",
+                        },
+                        {
+                            value: "Rhode Island",
+                            value: "Rhode Island",
+                        },
+                        {
+                            value: "South Carolina",
+                            value: "South Carolina",
+                        },
+                        {
+                            value: "South Dakota",
+                            value: "South Dakota",
+                        },
+                        {
+                            value: "Tennessee",
+                            value: "Tennessee",
+                        },
+                        {
+                            value: "Texas",
+                            value: "Texas",
+                        },
+                        {
+                            value: "Utah",
+                            value: "Utah",
+                        },
+                        {
+                            value: "Vermont",
+                            value: "Vermont",
+                        },
+                        {
+                            value: "Virginia",
+                            value: "Virginia",
+                        },
+                        {
+                            value: "Washington",
+                            value: "Washington",
+                        },
+                        {
+                            value: "West Virginia",
+                            value: "West Virginia",
+                        },
+                        {
+                            value: "Wisconsin",
+                            value: "Wisconsin",
+                        },
+                        {
+                            value: "Wyoming",
+                            value: "Wyoming",
                         },
                     ]}
                 />

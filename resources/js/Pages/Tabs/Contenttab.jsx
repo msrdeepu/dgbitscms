@@ -12,15 +12,6 @@ const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
 };
 
-const layoutType = (event) => {
-    let value = event.target.value;
-    if (value === "Select Page Type" || "Article") {
-        console.log("Hello");
-    } else {
-        console.log("Hi");
-    }
-};
-
 const Contenttab = () => {
     return (
         <>
@@ -112,7 +103,6 @@ const Contenttab = () => {
                                         }}
                                         name="cars"
                                         id="cars"
-                                        onChange={layoutType}
                                     >
                                         <option
                                             style={{
