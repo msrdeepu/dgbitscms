@@ -40,7 +40,7 @@ function Managecategories(props) {
                         <div style={{ display: "flex" }}>
                             <div style={{ margin: "8px" }}>
                                 <Form.Item
-                                    name="note"
+                                    name="item0"
                                     label="Note"
                                     rules={[
                                         {
@@ -83,7 +83,7 @@ function Managecategories(props) {
                             </div>
                             <div style={{ margin: "8px" }}>
                                 <Form.Item
-                                    name="note"
+                                    name="item1"
                                     label="Note"
                                     rules={[
                                         {
@@ -94,7 +94,7 @@ function Managecategories(props) {
                                     <Input />
                                 </Form.Item>
                                 <Form.Item
-                                    name="note"
+                                    name="item2"
                                     label="Note"
                                     rules={[
                                         {
@@ -105,7 +105,7 @@ function Managecategories(props) {
                                     <Input type="number" />
                                 </Form.Item>
                                 <Form.Item
-                                    name="gender"
+                                    name="item3"
                                     label="Gender"
                                     rules={[
                                         {
@@ -159,7 +159,7 @@ function Managecategories(props) {
                                     <Input />
                                 </Form.Item>
                                 <Form.Item
-                                    name="note"
+                                    name="item4"
                                     label="Note"
                                     rules={[
                                         {
@@ -170,7 +170,7 @@ function Managecategories(props) {
                                     <Input />
                                 </Form.Item>
                                 <Form.Item
-                                    name="note"
+                                    name="item15"
                                     label="Note"
                                     rules={[
                                         {
@@ -208,7 +208,7 @@ function Managecategories(props) {
                         <div style={{ display: "flex" }}>
                             <div style={{ margin: "8px" }}>
                                 <Form.Item
-                                    name="note"
+                                    name="item8"
                                     label="Note"
                                     rules={[
                                         {
@@ -219,7 +219,7 @@ function Managecategories(props) {
                                     <Input type="file" />
                                 </Form.Item>
                                 <Form.Item
-                                    name="note"
+                                    name="item9"
                                     label="Note"
                                     rules={[
                                         {
@@ -230,7 +230,7 @@ function Managecategories(props) {
                                     <Input type="file" />
                                 </Form.Item>
                                 <Form.Item
-                                    name="note"
+                                    name="item10"
                                     label="Note"
                                     rules={[
                                         {
