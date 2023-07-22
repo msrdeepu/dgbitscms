@@ -5,6 +5,8 @@ import Savecancelbuttons from "./Savecancelbuttons";
 import Layoutone from "../Contenttablayout/Layoutone";
 import Layouttwo from "../Contenttablayout/Layouttwo";
 
+import Richeditor from "../Tablepages/Richeditor";
+
 const onFinish = (values) => {
     console.log("Success:", values);
 };
@@ -224,6 +226,17 @@ const Contenttab = () => {
                                 </Form.Item>
                             </div>
                         </div>
+                    </div>
+                    <div
+                        style={{
+                            width: "100%",
+                            display: "flex",
+                            justifyContent: "center",
+                            flexWrap: "wrap",
+                        }}
+                    >
+                        <Richeditor text="Rich Intro" />
+                        <Richeditor text="Rich Body" />
                     </div>
 
                     <Savecancelbuttons />

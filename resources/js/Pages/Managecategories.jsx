@@ -3,6 +3,8 @@ import { Head } from "@inertiajs/inertia-react";
 import { Card, Typography } from "antd";
 import { Button, Form, Input, Select } from "antd";
 
+import Richeditor from "./Tablepages/Richeditor";
+
 import Savecancelbuttons from "./Tabs/Savecancelbuttons";
 
 function Managecategories(props) {
@@ -125,18 +127,14 @@ function Managecategories(props) {
                                 </Form.Item>
                             </div>
                         </div>
-                        <div
-                            style={{
-                                display: "flex",
-                                justifyContent: "center",
-                            }}
-                        >
-                            <h1>============Rich Layout==========</h1>
-                        </div>
                     </Form>
+                </div>
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <Richeditor text="Description" />
                 </div>
                 <div
                     style={{
+                        width: "100%",
                         display: "flex",
                         justifyContent: "center",
                     }}
