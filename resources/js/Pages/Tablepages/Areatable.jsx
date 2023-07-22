@@ -35,7 +35,7 @@ const data = [
         Title: "INDIA",
         order: "248",
         status: "ACTIVE",
-        state: "AndhraPradesh",
+        district: "AndhraPradesh",
     },
     {
         key: "2",
@@ -43,7 +43,7 @@ const data = [
         Title: "USA",
         order: "249",
         status: "ACTIVE",
-        state: "AndhraPradesh",
+        district: "AndhraPradesh",
     },
     {
         key: "3",
@@ -51,7 +51,7 @@ const data = [
         Title: "UK",
         order: "250",
         status: "ACTIVE",
-        state: "AndhraPradesh",
+        district: "AndhraPradesh",
     },
     {
         key: "4",
@@ -59,7 +59,7 @@ const data = [
         Title: "FRANCE",
         order: "251",
         status: "ACTIVE",
-        state: "AndhraPradesh",
+        district: "AndhraPradesh",
     },
 ];
 const Areatable = () => {
@@ -196,7 +196,7 @@ const Areatable = () => {
         },
 
         {
-            title: "Name",
+            title: "Area Name",
             dataIndex: "Title",
             key: "Title",
 
@@ -214,10 +214,10 @@ const Areatable = () => {
             sortDirections: ["descend", "ascend"],
         },
         {
-            title: "State",
-            dataIndex: "state",
-            key: "order",
-            ...getColumnSearchProps("state"),
+            title: "District",
+            dataIndex: "district",
+            key: "district",
+            ...getColumnSearchProps("district"),
             sorter: (a, b) => a.address.length - b.address.length,
             sortDirections: ["descend", "ascend"],
         },
